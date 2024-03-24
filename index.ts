@@ -22,7 +22,7 @@ const answers = await inquirer.prompt([
 if (answers.UserGuessedNumber === randomNumber ) {
    console.log ("Congratulations! you guessed right number.");
 }  else {
-   console.log ("You guessed wrong number");
+   console.log ("You guessed wrong number!");
 }                                   
      
 
